@@ -8,7 +8,7 @@ pin: true
 math: true
 mermaid: true
 #image:
-  #path: /assets/img/sp500.png
+  #path: /assets/img/stacks.svg
   #alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
