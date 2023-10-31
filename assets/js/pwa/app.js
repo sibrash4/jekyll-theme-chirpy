@@ -10,8 +10,8 @@ if ('serviceWorker' in navigator) {
     /* Registering Service Worker */
     navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}')
         .then(registration => {
-
-            /* in case the user ignores the notification */
+            // The following code has been commented out to prevent the notification
+            /*
             if (registration.waiting) {
                 $notification.toast('show');
             }
@@ -32,6 +32,8 @@ if ('serviceWorker' in navigator) {
                 }
                 $notification.toast('hide');
             });
+            */
+
         });
 
     let refreshing = false;
@@ -44,4 +46,3 @@ if ('serviceWorker' in navigator) {
         }
     });
 }
-
