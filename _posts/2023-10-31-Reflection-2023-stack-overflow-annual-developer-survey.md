@@ -1,5 +1,5 @@
 ---
-title: Reflection- 2023 Stack Overflow Annual Developer Survey
+title: 2023 Stack Overflow Annual Developer Survey
 author: shaukat
 date: 2023-October-30 11:33:00 +0800
 categories: [assignment]
@@ -12,7 +12,7 @@ mermaid: true
   #alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-# Reflection: 2023 Stack Overflow Annual Developer Survey
+## Reflection on how the technology landscape has changed
 
 Exploring the survey results, I was fascinated to observe the diverse landscape of coding and programming, characterized by a multitude of languages and tools. While certain patterns and correlations are prevalent, a significant portion remains unique, showcasing the vast expanse of the coding world. This diversity stands as a testament to the field’s ability to innovate and evolve rapidly over the years.
 
