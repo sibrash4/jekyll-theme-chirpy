@@ -9,7 +9,7 @@ math: true
 mermaid: true
 image:
   path: /assets/img/stacks.png
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  #alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
 ## Reflection on how the technology landscape has changed

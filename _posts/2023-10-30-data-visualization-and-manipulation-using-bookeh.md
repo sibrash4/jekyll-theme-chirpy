@@ -9,7 +9,7 @@ math: true
 mermaid: true
 image:
   path: /assets/img/sp500.jpg
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  #alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
 # Data Visualization and manipulation using Bookeh
