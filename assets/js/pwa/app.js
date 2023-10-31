@@ -11,7 +11,7 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('{{ "/sw.js" | relative_url }}')
         .then(registration => {
             // The following code has been commented out to prevent the notification
-            /*
+            
             if (registration.waiting) {
                 $notification.toast('show');
             }
