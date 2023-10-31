@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.0.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="a7c0f5cb-e39e-4998-b45d-3d7aa71ee37c" data-root-id="p75845" style="display: contents;"></div>
+  
+    <script type="application/json" id="p75877">
+      {"9da4a574-ae91-4fbb-862a-735c5dfeacbc":{"version":"3.3.0","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p75845","attributes":{"width":800,"height":500,"x_range":{"type":"object","name":"FactorRange","id":"p75855","attributes":{"factors":["Boston Scientific","Altice USA","Norfolk Southern","Sonic Automotive","AMD","United States Steel","Markel","ODP","AES","Molson Coors"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p75847"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p75856"},"y_scale":{"type":"object","name":"LinearScale","id":"p75857"},"title":{"type":"object","name":"Title","id":"p75848","attributes":{"text":"Top 10 Companies' Revenues for 2021"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p75874","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p75842","attributes":{"selected":{"type":"object","name":"Selection","id":"p75843","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p75844"},"data":{"type":"map","entries":[["names",{"type":"ndarray","array":["Boston Scientific","Altice USA","Norfolk Southern","Sonic Automotive","AMD","United States Steel","Markel","ODP","AES","Molson Coors"],"shape":[10],"dtype":"object","order":"little"}],["revenues",{"type":"ndarray","array":["9913","9894.6","9789","9767","9763","9741","9735.1","9710","9660","9654"],"shape":[10],"dtype":"object","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p75875","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p75876"}}},"glyph":{"type":"object","name":"VBar","id":"p75871","attributes":{"x":{"type":"field","field":"names"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"revenues"},"line_color":{"type":"value","value":"navy"},"fill_color":{"type":"value","value":"navy"},"hatch_color":{"type":"value","value":"navy"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p75872","attributes":{"x":{"type":"field","field":"names"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"revenues"},"line_color":{"type":"value","value":"navy"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"value","value":"navy"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p75873","attributes":{"x":{"type":"field","field":"names"},"width":{"type":"value","value":0.8},"top":{"type":"field","field":"revenues"},"line_color":{"type":"value","value":"navy"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"navy"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"value","value":"navy"},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p75854"},"left":[{"type":"object","name":"LinearAxis","id":"p75863","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p75864","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p75865"},"axis_label":"Revenue","major_label_policy":{"type":"object","name":"AllLabels","id":"p75866"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p75858","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p75859"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p75860"},"axis_label":"Company","major_label_orientation":"vertical","major_label_policy":{"type":"object","name":"AllLabels","id":"p75861"},"major_label_text_font_size":"10pt"}}],"center":[{"type":"object","name":"Grid","id":"p75862","attributes":{"axis":{"id":"p75858"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p75867","attributes":{"dimension":1,"axis":{"id":"p75863"},"grid_line_alpha":0.5}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p75877').textContent;
+              const render_items = [{"docid":"9da4a574-ae91-4fbb-862a-735c5dfeacbc","roots":{"p75845":"a7c0f5cb-e39e-4998-b45d-3d7aa71ee37c"},"root_ids":["p75845"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
