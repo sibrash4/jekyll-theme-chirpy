@@ -24,12 +24,14 @@ Here are some intro to the dataset from [Kaggle][1]:
 
 Since 1955, Fortune magazine has published the top 500 companies in the US based on annual revenue. This list shows all 500 for each year. Note: 2015 is missing revenue figures.
 
-This data was used to create these quizzes:
+This data was used to create quizzes on HugeQuiz:
 
-> https://hugequiz.com/quizzes/fortune-500-top-25-by-year/
-> https://hugequiz.com/quizzes/fortune-500-companies-choose-number/
+- [Fortune 500 Top 25 by Year](https://hugequiz.com/quizzes/fortune-500-top-25-by-year/)
+- [Fortune 500 Companies Choose Number](https://hugequiz.com/quizzes/fortune-500-companies-choose-number/)
+
+For detailed information and access to the dataset, visit [Kaggle](https://www.kaggle.com/datasets/darinhawley/fortune-500-companies-19552021/).
  
-### Below is an excerpt from the dataset and how it looks and represents the data.
+### Below is an excerpt from the dataset.
 
 | Year | Company Name       | Revenue ($) | Rank |
 | ---- | ------------------ | ----------- | ---- |
