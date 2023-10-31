@@ -1,7 +1,7 @@
 ---
 title: Data Visualization and manipulation using Bookeh
 author: shaukat
-date: 2023-October-30 11:33:00 +0800
+date: 2023-10-30 11:33:00 +0800
 categories: [assignment, finance, interactive]
 tags: [data visualization]
 pin: true
