@@ -4,8 +4,8 @@ author: shaukat
 date: 2023-10-30 11:33:00 +0800
 categories: [assignment, finance, interactive]
 tags: [data visualization]
-pin: true
-math: true
+pin: false
+math: false
 mermaid: true
 image:
   path: /assets/img/sp500.jpg
