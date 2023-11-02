@@ -20,7 +20,7 @@ The research paper explored the influence of emerging generative tools, especial
 
 From the research, my overarching conclusion is that the results are multifaceted. The authors aptly highlight that:
 
-  > ”Copilot can pose risks when relied upon by novice developers, as they might not discern its suboptimal or flawed suggestions due to their limited expertise."  
+  > ### ”Copilot can pose risks when relied upon by novice developers, as they might not discern its suboptimal or flawed suggestions due to their limited expertise."  
 
 The study presents scenarios where Copilot demonstrated remarkable prowess and others where it was less effective. One limitation is the model's attention capacity. For instance, Chat GPT-4 is restricted to 8000 tokens, which may not encompass the complexity of larger projects. Although there is ongoing research to enhance the attention window of Large Language Models (LLMs), there are associated cost challenges. A noteworthy observation is that some companies have started training these models on their own datasets, indicating a promising direction for application.
 
