@@ -14,7 +14,7 @@ image:
 
 ## Discussion
 
-> [**Download the PDF**](assets/lib/Reflection – GitHub Copilot AI pair programmer - Asset or Liability?.pdf)
+> [**Download the PDF**](furman.sibrahim.io/assets/lib/GitHub_Copilot_AI_Reflection.pdf)
 
 The research paper explored the influence of emerging generative tools, especially GitHub Copilot, and assessed their efficiency relative to coding performed by humans. I find this an enthralling area of study. The rapid advancements in the generative landscape have raised concerns about these tools potentially replacing humans in coding, development, and even supportive roles. This study delved into evaluating the truth of such apprehensions.
 
