@@ -9,8 +9,10 @@ math: false
 mermaid: true
 image:
   path: /assets/img/githubcopilot.webp
-  #alt: Responsive rendering of Chirpy theme on multiple devices.
+  alt: [**Download the PDF**](assets/lib/Reflection – GitHub Copilot AI pair programmer - Asset or Liability?.pdf)
 ---
+
+## Discussion
 
 The research paper explored the influence of emerging generative tools, especially GitHub Copilot, and assessed their efficiency relative to coding performed by humans. I find this an enthralling area of study. The rapid advancements in the generative landscape have raised concerns about these tools potentially replacing humans in coding, development, and even supportive roles. This study delved into evaluating the truth of such apprehensions.
 
@@ -37,8 +39,6 @@ These reflections pivot to a critical inference: while AI might not supplant hum
 
 ---
 
----
-
 
 ## The different combinatuon of follow up questions I got as I edited the different paragraphs of the above reflection for grammar, spellings and punctuation
 
@@ -47,40 +47,48 @@ These reflections pivot to a critical inference: while AI might not supplant hum
   Q3: What strategies can human developers employ to ensure they remain indispensable in the AI-augmented workspace?  
   Q4: How can the educational sector adapt to train budding developers in the era of advanced generative tools?  
   Q5: Can AI ever truly replicate human intuition and creativity, or will it always require a human touch?  
+  
 - Q1: How do you see the evolution of tools like Copilot impacting the coding education sector?
   Q2: How might developers maintain a balance between leveraging AI tools and ensuring they continue honing their skills?  
   Q3: Are there potential ethical considerations when relying heavily on AI for coding solutions?  
   Q4: What other areas, outside of coding, might benefit from similar generative tools?  
   Q5: How might AI tools be designed to encourage human-AI collaboration rather than dependency?  
+  
 - Q1: How do you envision the future of coding with the proliferation of tools like GitHub Copilot?
   Q2: Are there potential drawbacks for seasoned developers when using such generative tools?  
   Q3: In what other sectors, apart from tech, could these generative tools find applications?  
   Q4: How might training on proprietary datasets affect the outcomes and reliability of generative tools?  
   Q5: Are there ways to merge the strengths of both humans and these generative tools to achieve optimal results?  
+
 - Q1: How might the evolution of generative tools impact the job market, especially in the tech sector?
   Q2: What are the ethical implications of relying heavily on tools like GitHub Copilot for coding?  
   Q3: How might organizations ensure that novice developers use such tools effectively and safely?  
   Q4: Are there other older programming languages, similar  
+
 - Q1: How does the current technological environment influence people's curiosity and willingness to learn?
   Q2: In what ways can individuals stay relevant in an ever-evolving digital age?  
   Q3: How can organizations ensure their employees maintain a continuous learning mindset?  
   Q4: Are there any downsides to a "survival of the fittest" mentality in a professional or educational setting?  
   Q5: How can we cultivate a culture that emphasizes both efficiency and in-depth understanding?  
+
 - Q1: What are the potential long-term implications of relying heavily on AI tools like Copilot for coding tasks?
   Q2: How do you see the future evolution of AI tools in enhancing or potentially replacing certain job roles?  
   Q3: In what ways can AI tools be integrated into educational systems to enhance learning?  
   Q4: What measures can be taken to ensure that the use of AI tools doesn't compromise the foundational understanding of a subject?  
   Q5: Are there ethical considerations to be addressed when relying on AI-generated outputs, especially in professional settings?  
+
 - Q1: How can we ensure that AI-generated code is ethical and not plagiarized?
   Q2: What measures can be implemented to ensure human developers continue to stay relevant in the face of advancing AI?  
   Q3: How do you differentiate between learning from others' code and direct plagiarism?  
   Q4: In what ways can AI tools be used to complement human developers rather than replace them?  
   Q5: Are there any current standards or guidelines in place for ethical AI development in the coding industry?  
+
 - Q1: What are the potential long-term impacts of generative tools like GitHub Copilot on the software development industry?
 - Q2: How can developers ensure that they are using tools like Copilot effectively without becoming overly reliant on them?
 - Q3: In the context of older programming languages like COBOL, how can generative tools help bridge the knowledge gap and ensure the continuity of legacy systems?
 - Q4: Are there any ethical considerations to be aware of when using generative tools for software development?
 - Q5: How might the evolution of these generative tools change the landscape of software development education and training in the future?
+
 - Q1: How might the evolution of generative tools like Copilot impact the curriculum of coding boot camps or computer science degrees?
 - Q2: What measures can be implemented to ensure that novice developers using Copilot don't become overly reliant on it?
 - Q3: Could the introduction of AI in coding lead to new specialized roles in the tech industry, such as AI code reviewers or AI-enhanced software architects?
