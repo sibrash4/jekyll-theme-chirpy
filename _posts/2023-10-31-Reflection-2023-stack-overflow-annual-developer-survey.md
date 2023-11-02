@@ -4,8 +4,8 @@ author: shaukat
 date: 2023-10-30 11:33:00 +0800
 categories: [assignment]
 tags: [reflection]
-pin: true
-math: true
+pin: false
+math: false
 mermaid: true
 image:
   path: /assets/img/stacks.png
